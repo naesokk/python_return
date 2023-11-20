@@ -1,0 +1,21 @@
+  """
+ Lệnh "return", nó sẽ dừng việc thực thi và trả về giá trị được chỉ định.
++ Giá trị này có thể là một giá trị cụ thể, một biến, một đối tượng, hoặc thậm chí là một danh sách các giá trị.
++ Khi ta dùng câu lệnh return thì nó sẽ k hiện trên console , vậy nên ta phải thêm câu lệnh print vào 
+B1 : Trình bày functions
+B2 : Nêu biến    
+""" 
+# Example : 
+def divided(number1,number2):
+    result = number1 / number2
+    return result                      # Ví dụ về phép chia 
+divided(6,3)
+print(divided(6,3))
+
+def multiply(so1,so2):
+    result = so1 * so2
+    return result                      # Ví dụ về phép nhân
+multiply(5,8)
+print(multiply(5,8)) 
+
+
